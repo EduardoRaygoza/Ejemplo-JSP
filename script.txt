@@ -1,0 +1,9 @@
+CREATE DATABASE prueba_exposicion;
+USE prueba_exposicion;
+CREATE TABLE alumno (
+id_alumno int not null,
+nombre varchar(50),
+apellido varchar(50),
+fecha_nacimiento date,
+carrera varchar(3));
+INSERT INTO alumno VALUES (1, "Eduardo", "Raygoza", "1997-02-06", "ISC");
